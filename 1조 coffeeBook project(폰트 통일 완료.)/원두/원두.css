@@ -1,0 +1,360 @@
+
+.Top_title{
+    z-index: 1;
+    background-color: #000000;
+    position: fixed;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%,-50%);
+    border-bottom-left-radius: 30px ;
+    border-bottom-right-radius: 30px ;
+    height: 150px;
+    width: 100vw;
+      /* height길이조정하고 top없애서 위로 올림 */
+  }
+
+  .navbar-nav li:hover{
+    background-color: rgb(97, 11, 11);
+    border-radius: 4px;
+  }
+  
+  .font {
+    font-family: 'Gowun Batang', serif;
+  }
+  
+  .logo{
+    position: relative;
+    left:1vw;
+    width: 500px;
+    height: 200px;
+  }
+  
+  #img_logo{
+    position: relative;
+    left:10%;
+    Top: 50%;
+    bottom: 50%;
+    transform: translate(-30%,-20%); 
+  /* x축위치조정 */
+    height: 80px;
+    width: 160px;
+  
+  }
+  
+  .ptag{
+    font-family: '고운 바탕', serif;
+  }
+  
+  .login{
+    position: relative;
+    left: 80%;
+    bottom:30px;
+    width: 170px;
+    height: 50px;
+    font-family: '고운 바탕', serif;
+    /* 폰트추가 */
+  }
+  
+  #btnposition{
+    color: ghostwhite;
+    /* 폰트색상변경 */
+    font-family: '고운 바탕', serif;
+    position: relative;
+    text-decoration: none;
+    /* 밑줄없애기 */
+  }
+  
+  .Nav{
+    position: relative;
+    left:40vw;
+    bottom:60px;
+    width: 38vw;
+    padding-bottom: 0;
+    /* 아래로 내려가서 바텀값 변경해서 위로 올리고 왼쪽으로 이동. */
+  }
+  
+  .navbar-nav{
+    font-size: x-large;
+    display: flex;
+    flex-wrap: nowrap;
+    transform: translate(-100px);
+    /* 메뉴바 wrap으로 한줄로 정렬, 위치조정 */
+  }
+  
+  #list_color{
+    color: white;
+  }
+  
+  .mainNav{
+    background-color: red;
+  }
+  
+  .Middle{
+    margin-top:30px;
+    position: relative;
+    width: 100%;
+    left:0;
+    right:0;
+    padding: 0px; 
+    top: 65px;
+  }
+
+  /* 중간부분 */
+  .user_form {
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    border: 1px solid rgb(231, 231, 231);
+    border-radius: 10px;
+    width: 500px;
+    height: 550px;
+    /* W400,H500에서 변경 */
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom:200px;
+    font-family: "Gowun Batang", serif;
+    font-weight: bold;
+    font-size: large;
+  }
+
+  /*************** 원두시작 ***************/
+.coffeeimg{
+    width: 100%;
+    height: 200px;
+    margin-top:10px;
+    background-color: rgb(199, 182, 161);
+    top:0;
+}
+
+/********** 원두1. 브라질 **********/
+.coffeeBean1{
+    background-color: rgb(255, 255, 255);
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-right: 80px;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* 원두1. 브라질 국기 */
+.coffeeFlag1img{
+    width: 280px;
+    height: 280px;
+    margin-right: 100px;
+    float: left;
+}
+
+/* 원두1. 브라질 원두 설명 */
+.coffeeBean1inf{
+    color: rgb(119, 119, 119);
+    font-family: 'Gowun Batang', serif;
+    font-size: 17px;
+    font-weight: bold;
+    text-align: center;
+    float: left;
+}
+
+/* 원두1. 브라질 원두 한글이름 */
+.coffeeBean1_1inf{
+    font-size: x-large;
+    font-weight: bolder;
+    display: inline;
+}
+
+/* 원두1. 브라질 원두 영어이름 */
+.coffeeBean1_2inf{
+    font-size: small;
+}
+
+/* 원두1. 브라질 원두 맛 */
+#coffeeTaste1{
+    padding-left: 100px;
+    padding-bottom: 80px;
+    float: right;
+}
+
+/********** 원두2. 에티오피아 **********/
+.coffeeBean2{
+    background-color: rgba(227, 231, 203, 0.815);
+    padding-right: 80px;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* 원두2. 에티오피아 국기 */
+.coffeeFlag2img{
+    width: 300px;
+    height: 260px;
+    margin-right: 100px;
+    float: left;
+}
+
+/* 원두2. 에티오피아 원두 설명 */
+.coffeeBean2inf{
+    color: rgb(68, 64, 50);
+    font-family: 'Gowun Batang', serif;
+    font-size: 17px;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-right: 20px;
+    text-align: center;
+    float: left;  
+}
+
+/* 원두2. 에티오피아 원두 한글이름 */
+.coffeeBean2_1inf{
+    font-size: x-large;
+    font-weight: bolder;
+    display: inline;
+}
+
+/* 원두2. 에티오피아 원두 영어이름 */
+.coffeeBean2_2inf{
+    font-size: small;
+}
+
+/* 원두2. 에티오피아 원두 맛 */
+#coffeeTaste2{
+    padding-left: 100px;
+    padding-bottom: 80px;
+    float: right;
+}
+
+/********** 원두3. 케냐 **********/
+.coffeeBean3{
+    background-color: rgb(204, 179, 151);
+    padding-right: 80px;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* 원두3. 케냐 국기 */
+.coffeeFlag3img{
+    width: 280px;
+    height: 260px;
+    margin-right: 100px;
+    float: left;
+}
+
+/* 원두3. 케냐 원두 설명 */
+.coffeeBean3inf{
+    color: rgb(53, 46, 30);
+    font-family: 'Gowun Batang', serif;
+    font-size: 17px;
+    font-weight: bold;
+    text-align: center;
+    float: left; 
+}
+
+/* 원두3. 케냐 원두 한글이름 */
+.coffeeBean3_1inf{
+    font-size: x-large;
+    font-weight: bolder;
+    display: inline;
+}
+
+/* 원두3. 케냐 원두 영어이름 */
+.coffeeBean3_2inf{
+    font-size: small;
+}
+
+/* 원두3. 케냐 원두 맛 */
+#coffeeTaste3{
+    padding-left: 100px;
+    padding-bottom: 80px;
+    float: right;
+}
+
+/* 화면 크기 축소 시 설명글 사라짐 */
+@media(max-width:986px){
+    .coffeeBean1inf{
+        display: none;
+    }
+    .coffeeBean2inf{
+        display: none;
+    }
+    .coffeeBean3inf{
+        display: none;
+    }
+}
+  
+  
+  /*footer 시작*/
+  .Bottom{
+    background-color: #000000;
+    position: relative;
+    margin-top: 30px;
+    padding-top:30px;
+    top: 35px;
+    height:190px; 
+  }
+  
+  .include_items{
+    position: relative;
+    width: 90vw;
+    margin-left: auto;
+    margin-right: auto;
+    height: 150px;
+    bottom: 15px;
+  }
+  
+  .referral{
+   width: 250px;
+   height: 100px;
+   position: relative;
+   left:20vw;
+   bottom:110px;
+   color: rgb(135, 135, 135);
+
+  
+  }
+  
+  .icons{
+    position: relative;
+    width:160px;
+    top: 10px;
+    left:15px;
+  }
+  
+  #instar{
+    width: 30px;
+    height: 30px;
+    border-radius: 7px;
+  }
+  
+  #face{
+    position: relative;
+    left:10px;
+    width: 30px;
+    height: 30px;
+    border-radius: 7px;
+  }
+  
+  .address{
+    width:410px;
+    height:70px;
+    position: relative;
+    left:60vw;
+    bottom: 160px;
+  color: rgb(135, 135, 135);
+    
+  }
+
+  #Endlogo{
+    width: 190px;
+    height: 95px;
+    position: relative;
+    top:50%;
+    bottom:50%;
+    transform: translate(-50%,-50%);
+    left:95px;
+    
+  }
